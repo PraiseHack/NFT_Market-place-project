@@ -1,0 +1,1263 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter' ,serif;
+}
+
+.container{
+    width: 95%;
+    margin: auto;
+    padding: 1rem;
+    background-color: black;
+}
+
+/* section one, header */
+
+header{
+    display: flex;
+    padding: 5px 10%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.logo{
+    cursor: pointer;
+    color: white;
+    margin-right: auto;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+    padding-right: 30px;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    color: white;
+    padding: 0px 20px 0px 0px;
+    /* padding-right: 100px; */
+}
+
+.nav_links li a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    color: #FFFFFF;
+    transition: 0.2s ease-in;
+}
+
+.nav_links li a:hover{
+    color: #738be3;
+}
+
+/* nav button */
+
+.box{
+    padding-left: 16px;
+}
+
+.box .btn{
+    padding: 10px 24px;
+    border-radius: 6px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.box .btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.box .one{
+   margin-right: 10px;
+   background-color: #2750E3;
+}
+
+.box .two{
+   box-sizing: border-box;
+   position: absolute;
+   width: 104px;
+   height: 40px;
+   left: 1198px;
+   top: 11px;
+   margin-top: 0.6rem;
+   background: #000000;
+   border: 1px solid #000000;
+   box-shadow: -1px -1px 4px #FFFFFF, 1px 1px 4px #FFFFFF;
+   border-radius: 6px;
+}
+
+
+/* section two nft world and nft image */
+
+.grid{
+    display: grid;
+    margin-top: 150px;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    color: white;
+}
+
+.grid .box{
+    margin-left: 5rem;
+    margin-top: -1rem;
+}
+
+.grid .one{
+    margin-right: 5rem;
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+}
+
+.grid .box h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+}
+
+.grid .box p{
+    padding-top: 1rem;
+}
+
+.grid #NFT{
+    font-family: 'Inter';
+    font-style: normal;
+    color: black;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    text-shadow: -1px 1px 0px white, 1px 1px 0px white, 1px -1px 0px white, -1px -1px 0px white;
+}
+    /* explore and upload */
+
+.grid .button{
+    display: flex;
+    align-content: center;
+    margin-top: 2rem;
+    padding-top: 1rem;
+}
+
+.grid .button .ex{
+    margin-right: 2rem;
+    background: #2750E3;
+    border-radius: 6px;
+    width: 144px;
+    height: 47px;
+    padding: 10px 20px;
+
+}
+
+.grid .button .ex a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    color: white;
+    margin: auto;
+  
+}
+
+.grid .button .up{
+    box-sizing: border-box;
+    border-radius: 6px;
+    box-shadow: -1px -1px 4px #FFFFFF, 1px 1px 4px #FFFFFF;
+    border: 6px solid #000000;
+    padding: 6px 20px;
+}
+
+.grid .button .up a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    color: white;
+   
+}
+
+.grid .one .img{
+    background-image: url('./img/istockphoto-4.jpg');
+    background-color: blue;
+    width: 450px;
+    margin: auto;
+    height: 480px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 6px;
+}
+
+/* section three explore items and wallet */
+
+.items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.items .item{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    margin-left: 5.5rem;
+
+}
+
+.items .wa{
+    line-height: 15px;
+    margin-left: 150px;
+    padding: 10px 25px;
+    transition: 0.3s ease-in;
+    border-radius: 10px;
+    background-color: darkslategray;
+    box-sizing: border-box;
+    margin-right: 80px;
+}
+
+.items .wa:hover{
+    background-color: black;
+}
+
+.items .item a{
+    color: white;
+    text-decoration: none;
+}
+
+.items .wa a{
+    color: green;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px; 
+}
+
+/* section four wallets */
+
+.gallery{
+    margin-top: 3rem;
+    margin-left: 5rem;
+    margin-right: 2rem;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 0.3rem;
+    border-radius: 15px;
+    padding: 0.5rem;
+    /* border: 2px solid red; */
+}
+
+.gallery .card{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: darkslategray;
+    border-radius: 15px;
+    width: 80%;
+    height: 150px;
+}
+
+.gallery .card .img{
+    width: 70%;
+    height: 90px;
+    margin: auto;
+    background-image: url('./img/metamask-fox-logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.gallery .card .one{
+    width: 70%;
+    height: 90px;
+    margin: auto;
+    background-image: url('./img/nftwallet.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.gallery .card .two{
+    width: 70%;
+    height: 90px;
+    margin: auto;
+    background-image: url('./img/ethwallet.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.gallery .card .three{
+    width: 70%;
+    height: 90px;
+    margin: auto;
+    background-image: url('./img/coinbasewallet.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.gallery .card .four{
+    width: 70%;
+    height: 90px;
+    margin: auto;
+    background-image: url('./img/bluesolutionswallet.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.gallery .card .five{
+    width: 70%;
+    height: 90px;
+    margin: auto;
+    background-image: url('./img/securewallet.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.gallery .card .alpha{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 1rem;
+}
+
+.gallery .card .alpha a{
+    text-decoration: none;
+    color: white;
+}
+
+
+    /* NFTs Categories */
+
+    
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.nav .nft{
+    width: 241px;
+    height: 36px;
+    left: 125px;
+    top: 951px;
+    margin-left: 5rem;
+}
+
+.nav .nft a{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-decoration: none; 
+}
+
+.nav .previous{
+    padding-left: 50rem;
+}
+
+.nav .next{
+    padding-right: 5rem;
+}
+
+.nav .previous a{
+    text-decoration: none;
+    color: white;
+    padding: 3px 4px;
+}
+
+.nav .previous a:hover{
+    background-color: grey;
+    color: aqua;
+}
+
+.nav .next a{
+    text-decoration: none;
+    color: white;
+    padding: 3px 8px;
+}
+
+.nav .next a:hover{
+    background-color: dimgray;
+    color: aqua;
+}
+
+.section{
+    margin-top: 3rem;
+}
+
+.section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 55px 45px;
+}
+
+.gallery2{
+    gap: .1rem;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    width: 254px;
+    height: 389px;
+    left: 133px;
+    top: 1029px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(118, 15, 15, 0.05) 100%);
+    border: 2px solid #390B0B;
+    backdrop-filter: blur(70px);
+    border-radius: 8px;
+    margin-left: 2rem; 
+}
+
+.gallery2 .card{
+    width: 219px;
+    height: 268px;
+    left: 151px;
+    top: 1048px;
+    padding-top: 0.5rem;
+}
+
+.gallery2 .card .one{
+    width: 95%;
+    height: 40vh;
+    border: 2px solid yellow;
+    margin: auto;
+    background-image: url('./img/nft16.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 15px;
+    /* transition: 0.3s ease-in; */
+    margin-left: .8rem;
+    color: white;
+    padding-left: 2px;
+}
+
+.gallery2 .card .two{
+    width: 95%;
+    height: 40vh;
+    border: 2px solid yellow;
+    margin: auto;
+    background-image: url('./img/nft12.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 15px;
+    /* transition: 0.3s ease-in; */
+    margin-left: .8rem;
+    color: white;
+    padding-left: 2px;
+}
+
+.gallery2 .card .three{
+    width: 95%;
+    height: 40vh;
+    border: 2px solid yellow;
+    margin: auto;
+    background-image: url('./img/nft11.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 15px;
+    /* transition: 0.3s ease-in; */
+    margin-left: .8rem;
+    color: white;
+    padding-left: 2px;
+}
+
+.gallery2 .card .four{
+    width: 95%;
+    height: 40vh;
+    border: 2px solid yellow;
+    margin: auto;
+    background-image: url('./img/nft10.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 15px;
+    /* transition: 0.3s ease-in; */
+    margin-left: .8rem;
+    color: white;
+    padding-left: 2px;
+}
+/* 
+.gallery2 .card .one:hover{
+    width: 93%;
+    height: 39vh;
+} */
+
+.gallery2 .card .one .box_1{
+    margin: 15px 8px 0px 145px;
+    /* margin-top: 15px; */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background:  rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    backdrop-filter: blur(5px)
+}
+
+.gallery2 .card .two .box_1{
+    margin: 15px 8px 0px 145px;
+    /* margin-top: 15px; */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background:  rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    backdrop-filter: blur(5px)
+}
+
+.gallery2 .card .three .box_1{
+    margin: 15px 8px 0px 145px;
+    /* margin-top: 15px; */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background:  rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    backdrop-filter: blur(5px)
+}
+
+.gallery2 .card .four .box_1{
+    margin: 15px 8px 0px 145px;
+    /* margin-top: 15px; */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background:  rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    backdrop-filter: blur(5px)
+}
+
+.gallery2 .card .one .glass{
+    display: flex;
+    box-sizing: border-box;
+    width: 190px;
+    height: 57px;
+    left: 981px;
+    top: 1255px;
+    margin: 145px 0px 8px 2px;
+    margin-left: 5px;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background:  rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    backdrop-filter: blur(5px)
+}
+
+.gallery2 .card .two .glass{
+    display: flex;
+    box-sizing: border-box;
+    width: 190px;
+    height: 57px;
+    left: 981px;
+    top: 1255px;
+    margin: 145px 0px 8px 2px;
+    margin-left: 5px;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background:  rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    backdrop-filter: blur(5px)
+}
+
+.gallery2 .card .three .glass{
+    display: flex;
+    box-sizing: border-box;
+    width: 190px;
+    height: 57px;
+    left: 981px;
+    top: 1255px;
+    margin: 145px 0px 8px 2px;
+    margin-left: 5px;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background:  rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    backdrop-filter: blur(5px)
+}
+
+.gallery2 .card .four .glass{
+    display: flex;
+    box-sizing: border-box;
+    width: 190px;
+    height: 57px;
+    left: 981px;
+    top: 1255px;
+    margin: 145px 0px 8px 2px;
+    margin-left: 5px;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background:  rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    backdrop-filter: blur(5px)
+}
+
+.gallery2 .card .one .glass .box{
+    color: white;
+    margin-right: .5rem;
+    display: flex;
+}
+
+.gallery2 .card .disc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 8px 8px 0px 10px;
+    /* border: 1px solid red; */
+}
+
+.gallery2 .card .disc .box_1{
+    margin: 0 .4rem 0 .3rem;
+    display: flex;
+}
+
+.gallery2 .card .disc .box_1 .top-left{
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.gallery2 .card .disc .box_1 .top-right{
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.gallery2 .card .disc .box_1 .center-left{
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery2 .card .disc .box_1 .center-right{
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery2 .card .disc .box_1 .bottom-left{
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.gallery2 .card .disc .box_1 .bottom-right{
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.gallery2 .card .disc .box_1{
+    color: white;
+    text-decoration: none;
+    padding-top: .2rem;
+}
+
+.gallery2 .bids{  
+    width: 150px;
+    padding: 10px 0px 10px 0px;
+    left: 760px;
+    top: 1400px; 
+    background-color: #2750E3;
+    border-radius: 6px;
+    margin: 22px 0px 0px 40px
+}
+
+.gallery2 .bids a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-decoration: none; 
+    padding-left: 33px;
+}
+
+.flex{
+    display: flex;
+    margin: 70px 35px 0px 95px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.flex .logo{
+    cursor: pointer;
+    color: white;
+    margin-right: auto;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+    padding-right: 60px;
+}
+
+.flex .nav_links{
+    color: white;
+    padding: 0px 10px 0px 0px;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(118, 15, 15, 0.05) 100%);
+}
+
+.flex .nav_links a{
+    color: white;
+    border: 2px solid #390B0B;
+    backdrop-filter: blur(70px);
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.section_2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 55px 45px;
+}
+
+.gallery3{
+    gap: .1rem;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    width: 254px;
+    height: 389px;
+    left: 133px;
+    top: 1029px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(118, 15, 15, 0.05) 100%);
+    border: 2px solid #390B0B;
+    backdrop-filter: blur(70px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 8px;
+    margin-left: 2rem;
+    color: white;
+}
+
+.gallery3 .card_1{
+    width: 219px;
+    height: 268px;
+    left: 151px;
+    top: 1048px;
+    padding-top: 0.5rem;
+}
+
+.gallery3 .card_1 .img_1{
+    width: 95%;
+    height: 40vh;
+    border: 2px solid yellow;
+    margin: auto;
+    background-image: url('./img/nft2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 15px;
+    /* transition: 0.3s ease-in; */
+    margin-left: .8rem;
+    color: white;
+    padding-left: 2px;
+}
+
+.gallery3 .card_1 .img_2{
+    width: 95%;
+    height: 40vh;
+    border: 2px solid yellow;
+    margin: auto;
+    background-image: url('./img/nft4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 15px;
+    /* transition: 0.3s ease-in; */
+    margin-left: .8rem;
+    color: white;
+    padding-left: 2px;
+}
+
+.gallery3 .card_1 .img_3{
+    width: 95%;
+    height: 40vh;
+    border: 2px solid yellow;
+    margin: auto;
+    background-image: url('./img/nft3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 15px;
+    /* transition: 0.3s ease-in; */
+    margin-left: .8rem;
+    color: white;
+    padding-left: 2px;
+}
+
+.gallery3 .card_1 .img_4{
+    width: 95%;
+    height: 40vh;
+    border: 2px solid yellow;
+    margin: auto;
+    background-image: url('./img/nft1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 15px;
+    /* transition: 0.3s ease-in; */
+    margin-left: .8rem;
+    color: white;
+    padding-left: 2px;
+}
+
+
+.gallery3 .card_1 .img_1 .box_1{
+    margin: 15px 8px 0px 145px;
+    /* margin-top: 15px; */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background:  rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    backdrop-filter: blur(5px)
+}
+
+.gallery3 .card_1 .img_2 .box_1{
+    margin: 15px 8px 0px 145px;
+    /* margin-top: 15px; */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background:  rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    backdrop-filter: blur(5px)
+}
+
+.gallery3 .card_1 .img_3 .box_1{
+    margin: 15px 8px 0px 145px;
+    /* margin-top: 15px; */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background:  rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    backdrop-filter: blur(5px)
+}
+
+.gallery3 .card_1 .img_4 .box_1{
+    margin: 15px 8px 0px 145px;
+    /* margin-top: 15px; */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background:  rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    backdrop-filter: blur(5px)
+}
+
+.gallery3 .card_1 .disc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 8px 8px 0px 10px;
+    /* border: 1px solid red; */
+}
+
+.gallery3 .card_1 .disc .box_1{
+    margin: 0 .4rem 0 .3rem;
+    display: flex;
+}
+
+.gallery3 .card_1 .disc .box_1 .top-left{
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.gallery3 .card_1 .disc .box_1 .top-right{
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.gallery3 .card_1 .disc .box_1 .center-left{
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery3 .card_1 .disc .box_1 .center-right{
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery3 .card_1 .disc .box_1 .bottom-left{
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.gallery3 .card_1 .disc .box_1 .bottom-right{
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.gallery3 .bids1{  
+    width: 150px;
+    padding: 10px 0px 10px 0px;
+    left: 760px;
+    top: 1400px; 
+    background-color: #2750E3;
+    border-radius: 6px;
+    margin: 32px 0px 0px 40px 
+}
+
+.bids1 a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-decoration: none; 
+    padding-left: 33px;
+}
+
+.create_sell{
+    color: white;
+}
+
+
+.create_sell h2{
+    margin-left: 75px;
+    margin-top: 100px;
+}
+
+.section_3{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 65px 55px 0px 35px;
+    gap: .2rem;
+}
+
+.gallery4{
+    box-sizing: border-box;
+    width: 276px;
+    height: 186px;
+    left: 123px;
+    top: 848px;
+    background: #090909;
+    border: 4px solid #230F01;
+    margin-left: 1rem;
+} 
+
+.gallery4 .img{
+    width: 59px;
+    height: 48px;
+    left: 140px;
+    top: 869px;
+    border-radius: 8px;
+    margin: 15px 0px 10px 10px;
+    background-image: url('./img/metamask-fox-logo.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.gallery4 p{
+    color: white;
+    padding: 6px 0px 0px 10px;
+    font-size: 13px;
+}
+
+
+.gallery4 .alpha{
+    text-align: left;
+    font-size: 16px;
+    padding: 4px 0px 10px 10px;
+}
+
+.gallery4 a{
+    text-decoration: none;
+    color: white;
+}
+
+.top_sells{
+    color: white;
+    margin-left: 75px;
+    margin-top: 100px;
+}
+
+.section_4{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 55px 45px;
+    gap: .6rem;
+}
+
+.gallery5{
+    box-sizing: border-box;
+    width: 276px;
+    height: 137px;
+    left: 123px;
+    top: 1206px;
+    background: #0A0D17;
+    border: 1px solid #D56F14;
+    border-radius: 5px;
+}
+
+.gallery5 .img1{
+    width: 78px;
+    height: 74px;
+    left: 130px;
+    top: 1227px;
+    background: url('./img/exec10.jpg');
+    border-radius: 71px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 0px 0px 10px;
+}
+
+.gallery5 .img2{
+    width: 78px;
+    height: 74px;
+    left: 130px;
+    top: 1227px;
+    background: url('./img/exec1.jpg');
+    border-radius: 71px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 0px 0px 10px;
+}
+
+.gallery5 .img3{
+    width: 78px;
+    height: 74px;
+    left: 130px;
+    top: 1227px;
+    background: url('./img/exec2.jpg');
+    border-radius: 71px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 0px 0px 10px;
+}
+
+.gallery5 .img4{
+    width: 78px;
+    height: 74px;
+    left: 130px;
+    top: 1227px;
+    background: url('./img/exec8.jpg');
+    border-radius: 71px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 0px 0px 10px;
+}
+
+.gallery5 .img5{
+    width: 78px;
+    height: 74px;
+    left: 130px;
+    top: 1227px;
+    background: url('./img/exec9.jpg');
+    border-radius: 71px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 0px 0px 10px;
+}
+
+.gallery5 .img6{
+    width: 78px;
+    height: 74px;
+    left: 130px;
+    top: 1227px;
+    background: url('./img/exec3.jpg');
+    border-radius: 71px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 0px 0px 10px;
+}
+
+.gallery5 .img7{
+    width: 78px;
+    height: 74px;
+    left: 130px;
+    top: 1227px;
+    background: url('./img/exec4.jpg');
+    border-radius: 71px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 0px 0px 10px;
+}
+
+.gallery5 .img8{
+    width: 78px;
+    height: 74px;
+    left: 130px;
+    top: 1227px;
+    background: url('./img/exec5.jpg');
+    border-radius: 71px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 0px 0px 10px;
+}
+
+.gallery5 .disc .box_1{
+    margin-left: 110px;
+    color: white;
+    font-size: 20px;
+}
+
+.gallery5 .disc .box_2{
+    margin-left: 110px;
+    color: white;
+    padding-top: 10px;
+}
+
+.gallery6{
+    display: grid;
+    margin-top: 90px;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    color: white;
+}
+
+.boxx{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.boxx .box1{
+    margin-top: 15px;
+    margin-left: 30px;
+    width: 243px;
+    height: 227px;
+    left: 125px;
+    top: 1588px;
+    background: url(./img/gradient3.jpg);
+    border-radius: 6px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.boxx .box2{
+    margin-top: -150px;
+    margin-left: 300px;   
+    width: 227px;
+    height: 218px;
+    left: 419px;
+    top: 1897px;
+    background: url('./img/gradient4.jpg');
+    border-radius: 6px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.boxx .box3{
+    margin-top: -100px;
+    margin-left: 80px;
+    margin-bottom: 15px;
+    width: 197px;
+    height: 214px;
+    left: 171px;
+    top: 1846px;
+    background: url(./img/gradient5.jpg);
+    border-radius: 6px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.boxx .box1 .img{
+    width: 78px;
+    height: 74px;
+    left: 130px;
+    top: 1227px;
+    background: url('./img/exec8.jpg');
+    border-radius: 71px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 180px;
+    margin-left: 190px;
+}
+
+.boxx .box2 .img{
+    width: 78px;
+    height: 74px;
+    left: 130px;
+    top: 1227px;
+    background: url('./img/exec10.jpg');
+    border-radius: 71px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 166px;
+    margin-left: 175px;
+}
+
+.boxx .box3 .img{
+    width: 76px;
+    height: 79px;
+    left: 330px;
+    top: 2004px;
+    background: url(./img/exec2.jpg);
+    border-radius: 137.5px;
+    border-radius: 71px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 166px;
+    margin-left: 140px;
+}
+
+.sign{
+    margin: 110px 40px 0px 20px;
+}
+
+.sign .sell h3{
+    padding: 0px 60px 20px 20px;
+    font-size: 50px;
+}
+
+.sign p{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.sign .sign_up{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+.sign .sign_up a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #2750E3;
+    border-radius: 6px;
+    padding: 8px 8px 8px 8px;
+}
+
+
+/* download (12) 1 */
+
+
+
+
+
+
+
